@@ -11,7 +11,7 @@ public abstract class AbstractTemplate<T> {
         this.trace = trace;
     }
 
-    public T exectute(String message) {
+    public T execute(String message) {
         TraceStatus status = null;
         try {
             status = trace.begin(message);

@@ -20,6 +20,6 @@ public class OrderServiceV4 {
                 return null;
             }
         };
-        template.exectute("OrderService.orderItem()");
+        template.execute("OrderService.orderItem()");
     }
 }
